@@ -3,12 +3,14 @@
       "experimentalDecorators": true,
       "outDir": "dist",
       "module": "commonjs",
-      "target": "es2019",
+      "target": "es2021",
       "resolveJsonModule": true,
       "esModuleInterop": true,
       "sourceMap": true,
       "rootDirs": ["src", "tests"],
       "baseUrl": "src",
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
       "paths": {
         "@/*": ["*"],
         "@/tests/*": ["../tests/*"]
